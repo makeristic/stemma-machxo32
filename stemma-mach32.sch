@@ -95,6 +95,8 @@ F 0 "Q1" V 2699 1300 50  0000 C CNN
 F 1 "BSS138" V 2790 1300 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2650 1225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2450 1300 50  0001 L CNN
+F 4 "C426569" H 2450 1300 50  0001 C CNN "LCSC Part #"
+F 5 "C426569" H 2450 1300 50  0001 C CNN "Part #"
 	1    2450 1300
 	0    -1   1    0   
 $EndComp
@@ -106,6 +108,8 @@ F 0 "Q2" V 2699 2025 50  0000 C CNN
 F 1 "BSS138" V 2790 2025 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2650 1950 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2450 2025 50  0001 L CNN
+F 4 "C426569" H 2450 2025 50  0001 C CNN "LCSC Part #"
+F 5 "C426569" H 2450 2025 50  0001 C CNN "Part #"
 	1    2450 2025
 	0    -1   1    0   
 $EndComp
@@ -124,7 +128,9 @@ P 2125 925
 F 0 "R1" H 1975 975 50  0000 L CNN
 F 1 "4.7k" H 1900 875 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2125 925 50  0001 C CNN
-F 3 "~" H 2125 925 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810200710_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf" H 2125 925 50  0001 C CNN
+F 4 "C23162" H 2125 925 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF4701T5E" H 2125 925 50  0001 C CNN "Part #"
 	1    2125 925 
 	1    0    0    -1  
 $EndComp
@@ -135,7 +141,9 @@ P 2250 925
 F 0 "R2" H 2309 971 50  0000 L CNN
 F 1 "4.7k" H 2309 880 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2250 925 50  0001 C CNN
-F 3 "~" H 2250 925 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810200710_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf" H 2250 925 50  0001 C CNN
+F 4 "C23162" H 2250 925 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF4701T5E" H 2250 925 50  0001 C CNN "Part #"
 	1    2250 925 
 	1    0    0    -1  
 $EndComp
@@ -146,7 +154,9 @@ P 2725 925
 F 0 "R3" H 2575 975 50  0000 L CNN
 F 1 "4.7k" H 2525 875 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2725 925 50  0001 C CNN
-F 3 "~" H 2725 925 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810200710_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf" H 2725 925 50  0001 C CNN
+F 4 "C23162" H 2725 925 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF4701T5E" H 2725 925 50  0001 C CNN "Part #"
 	1    2725 925 
 	1    0    0    -1  
 $EndComp
@@ -157,7 +167,9 @@ P 2850 925
 F 0 "R4" H 2909 971 50  0000 L CNN
 F 1 "4.7k" H 2909 880 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2850 925 50  0001 C CNN
-F 3 "~" H 2850 925 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810200710_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf" H 2850 925 50  0001 C CNN
+F 4 "C23162" H 2850 925 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF4701T5E" H 2850 925 50  0001 C CNN "Part #"
 	1    2850 925 
 	1    0    0    -1  
 $EndComp
@@ -261,6 +273,8 @@ F 0 "U1" H 4475 1867 50  0000 C CNN
 F 1 "AP2112K-3.3" H 4475 1776 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4475 1850 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 4475 1625 50  0001 C CNN
+F 4 "C51118" H 4475 1525 50  0001 C CNN "LCSC Part #"
+F 5 "AP2112K-3.3TRG1" H 4475 1525 50  0001 C CNN "Part #"
 	1    4475 1525
 	1    0    0    -1  
 $EndComp
@@ -304,7 +318,9 @@ P 3975 1625
 F 0 "C1" H 4067 1671 50  0000 L CNN
 F 1 "10uF" H 4067 1580 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3975 1625 50  0001 C CNN
-F 3 "~" H 3975 1625 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810191219_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" H 3975 1625 50  0001 C CNN
+F 4 "C19702" H 3975 1625 50  0001 C CNN "LCSC Part #"
+F 5 "CL10A106KP8NNNC" H 3975 1625 50  0001 C CNN "Part #"
 	1    3975 1625
 	1    0    0    -1  
 $EndComp
@@ -315,7 +331,9 @@ P 4925 1650
 F 0 "C4" H 5017 1696 50  0000 L CNN
 F 1 "10uF" H 5017 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4925 1650 50  0001 C CNN
-F 3 "~" H 4925 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810191219_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" H 4925 1650 50  0001 C CNN
+F 4 "C19702" H 4925 1650 50  0001 C CNN "LCSC Part #"
+F 5 "CL10A106KP8NNNC" H 4925 1650 50  0001 C CNN "Part #"
 	1    4925 1650
 	1    0    0    -1  
 $EndComp
@@ -382,7 +400,9 @@ P 6500 1475
 F 0 "R5" H 6559 1521 50  0000 L CNN
 F 1 "10k" H 6559 1430 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 1475 50  0001 C CNN
-F 3 "~" H 6500 1475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6500 1475 50  0001 C CNN
+F 4 "C25804" H 6500 1475 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF1002T5E" H 6500 1475 50  0001 C CNN "Part #"
 	1    6500 1475
 	1    0    0    -1  
 $EndComp
@@ -393,7 +413,9 @@ P 6500 1675
 F 0 "D1" V 6546 1605 50  0000 R CNN
 F 1 "LED_Small" V 6455 1605 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6500 1675 50  0001 C CNN
-F 3 "~" V 6500 1675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603A1_C85323.pdf" V 6500 1675 50  0001 C CNN
+F 4 "C85323" H 6500 1675 50  0001 C CNN "LCSC Part #"
+F 5 "NCD0603A1" H 6500 1675 50  0001 C CNN "Part #"
 	1    6500 1675
 	0    -1   -1   0   
 $EndComp
@@ -402,9 +424,11 @@ L Device:Ferrite_Bead_Small FB1
 U 1 1 5F587FCB
 P 5725 1425
 F 0 "FB1" V 5488 1425 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 5579 1425 50  0000 C CNN
+F 1 "30Ω@100MHz" V 5579 1425 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5655 1425 50  0001 C CNN
-F 3 "~" H 5725 1425 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810311122_Murata-Electronics-BLM18PG300SN1D_C17305.pdf" H 5725 1425 50  0001 C CNN
+F 4 "C17305" H 5725 1425 50  0001 C CNN "LCSC Part #"
+F 5 "BLM18PG300SN1D" H 5725 1425 50  0001 C CNN "Part #"
 	1    5725 1425
 	0    1    1    0   
 $EndComp
@@ -415,7 +439,9 @@ P 5275 1675
 F 0 "C5" H 5367 1721 50  0000 L CNN
 F 1 "1uF" H 5367 1630 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5275 1675 50  0001 C CNN
-F 3 "~" H 5275 1675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" H 5275 1675 50  0001 C CNN
+F 4 "C15849" H 5275 1675 50  0001 C CNN "LCSC Part #"
+F 5 "CL10A105KB8NNNC" H 5275 1675 50  0001 C CNN "Part #"
 	1    5275 1675
 	1    0    0    -1  
 $EndComp
@@ -426,7 +452,9 @@ P 5625 1675
 F 0 "C6" H 5717 1721 50  0000 L CNN
 F 1 "0.1uF" H 5717 1630 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5625 1675 50  0001 C CNN
-F 3 "~" H 5625 1675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 5625 1675 50  0001 C CNN
+F 4 "C15725" H 5625 1675 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 5625 1675 50  0001 C CNN "Part #"
 	1    5625 1675
 	1    0    0    -1  
 $EndComp
@@ -492,7 +520,8 @@ P 5450 3375
 F 0 "U2" H 5625 2575 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 5875 2650 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 5450 3375 50  0001 C CNN
-F 3 "" H 5450 3375 50  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 5450 3375 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4MG132I" H 5450 3375 50  0001 C CNN "Part #"
 	1    5450 3375
 	1    0    0    -1  
 $EndComp
@@ -503,7 +532,8 @@ P 8025 3425
 F 0 "U2" H 8200 2925 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 8450 3025 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 8025 3425 50  0001 C CNN
-F 3 "" H 8025 3425 50  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 8025 3425 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4MG132I" H 8025 3425 50  0001 C CNN "Part #"
 	2    8025 3425
 	1    0    0    -1  
 $EndComp
@@ -514,7 +544,8 @@ P 6750 5150
 F 0 "U2" H 6975 4500 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 7250 4625 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 6750 5150 50  0001 C CNN
-F 3 "" H 6750 5150 50  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 6750 5150 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4MG132I" H 6750 5150 50  0001 C CNN "Part #"
 	3    6750 5150
 	1    0    0    -1  
 $EndComp
@@ -525,7 +556,8 @@ P 4475 4900
 F 0 "U2" H 4625 4375 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 4925 4475 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 4475 4900 50  0001 C CNN
-F 3 "" H 4475 4900 50  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 4475 4900 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4MG132I" H 4475 4900 50  0001 C CNN "Part #"
 	4    4475 4900
 	1    0    0    -1  
 $EndComp
@@ -536,7 +568,8 @@ P 8900 4925
 F 0 "U2" H 9078 4996 50  0000 L CNN
 F 1 "MACHXO2-32QFN" H 9078 4905 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 8900 4925 50  0001 C CNN
-F 3 "" H 8900 4925 50  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 8900 4925 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4MG132I" H 8900 4925 50  0001 C CNN "Part #"
 	5    8900 4925
 	1    0    0    -1  
 $EndComp
@@ -637,7 +670,9 @@ P 4850 3050
 F 0 "C3" H 4942 3096 50  0000 L CNN
 F 1 "0.1uF" H 4942 3005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 3050 50  0001 C CNN
-F 3 "~" H 4850 3050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 4850 3050 50  0001 C CNN
+F 4 "C15725" H 4850 3050 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 4850 3050 50  0001 C CNN "Part #"
 	1    4850 3050
 	-1   0    0    -1  
 $EndComp
@@ -648,7 +683,9 @@ P 4025 4725
 F 0 "C2" H 4117 4771 50  0000 L CNN
 F 1 "0.1uF" H 4117 4680 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4025 4725 50  0001 C CNN
-F 3 "~" H 4025 4725 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 4025 4725 50  0001 C CNN
+F 4 "C15725" H 4025 4725 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 4025 4725 50  0001 C CNN "Part #"
 	1    4025 4725
 	-1   0    0    -1  
 $EndComp
@@ -659,7 +696,9 @@ P 6275 4725
 F 0 "C7" H 6367 4771 50  0000 L CNN
 F 1 "0.1uF" H 6367 4680 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6275 4725 50  0001 C CNN
-F 3 "~" H 6275 4725 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 6275 4725 50  0001 C CNN
+F 4 "C15725" H 6275 4725 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 6275 4725 50  0001 C CNN "Part #"
 	1    6275 4725
 	-1   0    0    -1  
 $EndComp
@@ -670,7 +709,9 @@ P 7650 3300
 F 0 "C8" H 7742 3346 50  0000 L CNN
 F 1 "0.1uF" H 7742 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 3300 50  0001 C CNN
-F 3 "~" H 7650 3300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 7650 3300 50  0001 C CNN
+F 4 "C15725" H 7650 3300 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 7650 3300 50  0001 C CNN "Part #"
 	1    7650 3300
 	-1   0    0    -1  
 $EndComp
@@ -681,7 +722,9 @@ P 8525 4650
 F 0 "C9" H 8617 4696 50  0000 L CNN
 F 1 "0.1uF" H 8617 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8525 4650 50  0001 C CNN
-F 3 "~" H 8525 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 8525 4650 50  0001 C CNN
+F 4 "C15725" H 8525 4650 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 8525 4650 50  0001 C CNN "Part #"
 	1    8525 4650
 	-1   0    0    -1  
 $EndComp
@@ -860,7 +903,9 @@ P 7200 1475
 F 0 "R6" H 7259 1521 50  0000 L CNN
 F 1 "10k" H 7259 1430 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 1475 50  0001 C CNN
-F 3 "~" H 7200 1475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 7200 1475 50  0001 C CNN
+F 4 "C25804" H 7200 1475 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF1002T5E" H 7200 1475 50  0001 C CNN "Part #"
 	1    7200 1475
 	1    0    0    -1  
 $EndComp
@@ -871,7 +916,9 @@ P 7200 1675
 F 0 "D2" V 7246 1605 50  0000 R CNN
 F 1 "LED_Small" V 7155 1605 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7200 1675 50  0001 C CNN
-F 3 "~" V 7200 1675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603A1_C85323.pdf" V 7200 1675 50  0001 C CNN
+F 4 "C85323" H 7200 1675 50  0001 C CNN "LCSC Part #"
+F 5 "NCD0603A1" H 7200 1675 50  0001 C CNN "Part #"
 	1    7200 1675
 	0    -1   -1   0   
 $EndComp
@@ -906,7 +953,9 @@ P 8125 4650
 F 0 "C10" H 8217 4696 50  0000 L CNN
 F 1 "0.1uF" H 8217 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8125 4650 50  0001 C CNN
-F 3 "~" H 8125 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261513_Samsung-Electro-Mechanics-CL10B104KC8NNNC_C15725.pdf~" H 8125 4650 50  0001 C CNN
+F 4 "C15725" H 8125 4650 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B104KC8NNNC" H 8125 4650 50  0001 C CNN "Part #"
 	1    8125 4650
 	-1   0    0    -1  
 $EndComp
