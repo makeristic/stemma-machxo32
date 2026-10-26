@@ -520,8 +520,8 @@ P 5450 3375
 F 0 "U2" H 5625 2575 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 5875 2650 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 5450 3375 50  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 5450 3375 50  0001 C CNN
-F 4 "LCMXO2-1200HC-4MG132I" H 5450 3375 50  0001 C CNN "Part #"
+F 3 "https://www.latticesemi.com/view_document?document_id=38834" H 5450 3375 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4SG32I" H 5450 3375 50  0001 C CNN "Part #"
 	1    5450 3375
 	1    0    0    -1  
 $EndComp
@@ -532,8 +532,8 @@ P 8025 3425
 F 0 "U2" H 8200 2925 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 8450 3025 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 8025 3425 50  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 8025 3425 50  0001 C CNN
-F 4 "LCMXO2-1200HC-4MG132I" H 8025 3425 50  0001 C CNN "Part #"
+F 3 "https://www.latticesemi.com/view_document?document_id=38834" H 8025 3425 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4SG32I" H 8025 3425 50  0001 C CNN "Part #"
 	2    8025 3425
 	1    0    0    -1  
 $EndComp
@@ -544,8 +544,8 @@ P 6750 5150
 F 0 "U2" H 6975 4500 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 7250 4625 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 6750 5150 50  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 6750 5150 50  0001 C CNN
-F 4 "LCMXO2-1200HC-4MG132I" H 6750 5150 50  0001 C CNN "Part #"
+F 3 "https://www.latticesemi.com/view_document?document_id=38834" H 6750 5150 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4SG32I" H 6750 5150 50  0001 C CNN "Part #"
 	3    6750 5150
 	1    0    0    -1  
 $EndComp
@@ -556,8 +556,8 @@ P 4475 4900
 F 0 "U2" H 4625 4375 50  0000 R CNN
 F 1 "MACHXO2-32QFN" H 4925 4475 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 4475 4900 50  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 4475 4900 50  0001 C CNN
-F 4 "LCMXO2-1200HC-4MG132I" H 4475 4900 50  0001 C CNN "Part #"
+F 3 "https://www.latticesemi.com/view_document?document_id=38834" H 4475 4900 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4SG32I" H 4475 4900 50  0001 C CNN "Part #"
 	4    4475 4900
 	1    0    0    -1  
 $EndComp
@@ -568,8 +568,8 @@ P 8900 4925
 F 0 "U2" H 9078 4996 50  0000 L CNN
 F 1 "MACHXO2-32QFN" H 9078 4905 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 8900 4925 50  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf" H 8900 4925 50  0001 C CNN
-F 4 "LCMXO2-1200HC-4MG132I" H 8900 4925 50  0001 C CNN "Part #"
+F 3 "https://www.latticesemi.com/view_document?document_id=38834" H 8900 4925 50  0001 C CNN
+F 4 "LCMXO2-1200HC-4SG32I" H 8900 4925 50  0001 C CNN "Part #"
 	5    8900 4925
 	1    0    0    -1  
 $EndComp
@@ -821,20 +821,20 @@ PROGRAM
 $Comp
 L power:+3.3V #PWR0131
 U 1 1 5F6520D1
-P 2150 4225
-F 0 "#PWR0131" H 2150 4075 50  0001 C CNN
-F 1 "+3.3V" H 2165 4398 50  0000 C CNN
-F 2 "" H 2150 4225 50  0001 C CNN
-F 3 "" H 2150 4225 50  0001 C CNN
-	1    2150 4225
+P 2150 4925
+F 0 "#PWR0131" H 2150 4775 50  0001 C CNN
+F 1 "+3.3V" H 2165 5098 50  0000 C CNN
+F 2 "" H 2150 4925 50  0001 C CNN
+F 3 "" H 2150 4925 50  0001 C CNN
+	1    2150 4925
 	1    0    0    -1  
 $EndComp
 Text Label 1400 4675 2    50   ~ 0
 PROGRAM
-NoConn ~ 2900 4575
-Text Label 2900 4375 0    50   ~ 0
-TDO
+NoConn ~ 2900 4675
 Text Label 2900 4475 0    50   ~ 0
+TDO
+Text Label 2900 4575 0    50   ~ 0
 TDI
 Text Label 1400 4475 2    50   ~ 0
 TMS
@@ -938,12 +938,12 @@ $EndComp
 $Comp
 L power:GND #PWR0133
 U 1 1 5F59913B
-P 2150 4925
-F 0 "#PWR0133" H 2150 4675 50  0001 C CNN
-F 1 "GND" H 2155 4752 50  0000 C CNN
-F 2 "" H 2150 4925 50  0001 C CNN
-F 3 "" H 2150 4925 50  0001 C CNN
-	1    2150 4925
+P 2150 4225
+F 0 "#PWR0133" H 2150 3975 50  0001 C CNN
+F 1 "GND" H 2155 4052 50  0000 C CNN
+F 2 "" H 2150 4225 50  0001 C CNN
+F 3 "" H 2150 4225 50  0001 C CNN
+	1    2150 4225
 	1    0    0    -1  
 $EndComp
 $Comp

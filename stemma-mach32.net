@@ -186,9 +186,9 @@
     (comp (ref U2)
       (value MACHXO2-32QFN)
       (footprint Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm)
-      (datasheet http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf)
+      (datasheet https://www.latticesemi.com/view_document?document_id=38834)
       (fields
-        (field (name "Part #") LCMXO2-1200HC-4MG132I))
+        (field (name "Part #") LCMXO2-1200HC-4SG32I))
       (libsource (lib lattice) (part MACHXO2-32QFN) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5D493B))

@@ -8,25 +8,27 @@ This repository is a fork of [chickadee-tech/stemma-machxo32](https://github.com
 
 This is a historical hardware design from September–October 2020. The repository includes a schematic and routed two-layer PCB, but no assembled-board photos, test reports, fabrication exports, FPGA bitstream, or programming instructions. These files do not establish that the design has been built or electrically validated.
 
-**Resolve the FPGA package mismatch before sourcing or fabrication.** The schematic and PCB assign U2 a `QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm` footprint, but the suggested part-number field is `LCMXO2-1200HC-4MG132I`. [Lattice's MachXO2 datasheet](https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/MachXO23/FPGA-DS-02056-4-6-MachXO2-Family-Data-Sheet.ashx?document_id=38834) lists that part as a 132-lead csBGA device, which does not match the committed 32-pin QFN footprint. No corrected part selection is supplied here.
+The [source audit](docs/code-audit-report.md) corrected the suggested FPGA part to **`LCMXO2-1200HC-4SG32I`**, matching the 32-pin QFN package, pin functions, and 3.3 V supply intent documented by [Lattice](https://www.latticesemi.com/view_document?document_id=38834). It also repaired DebugEdge schematic connections to agree with the existing PCB. Remaining footprint, clearance, thermal-pad, and licence questions still require review before manufacture or reuse.
 
 ## Files
 
 * [KiCad project](stemma-mach32.pro), [legacy schematic](stemma-mach32.sch), [PCB layout](stemma-mach32.kicad_pcb), and [netlist](stemma-mach32.net). The filenames use `mach32`, while the repository name uses `machxo32`.
 * [Symbol library table](sym-lib-table) and [footprint library table](fp-lib-table).
 * [.gitmodules](.gitmodules), which describes the external `kicad-libs` and `debug-edge` libraries pinned as Git submodules.
+* [Versioned historical symbol cache](stemma-mach32-cache.lib), preserving the symbols used for source checks.
 
 Suggested component part numbers are embedded in the schematic fields; there is no standalone BOM CSV.
 
 ## Open or modify the design
 
-Clone the fork and initialise its pinned libraries. The submodule URLs use SSH; the command below uses HTTPS for this operation without changing the committed URLs:
+Clone the fork with its pinned libraries. Public HTTPS submodule URLs avoid requiring SSH setup:
 
 ```sh
-git clone https://github.com/makeristic/stemma-machxo32.git
+git clone --recurse-submodules https://github.com/makeristic/stemma-machxo32.git
 cd stemma-machxo32
-git -c url.https://github.com/.insteadOf=git@github.com: submodule update --init --recursive
 ```
+
+For an existing checkout, run `git submodule sync` followed by `git submodule update --init --recursive`.
 
 Open `stemma-mach32.pro` in KiCad. The PCB records **KiCad 5.1.6**, with legacy `.pro` and `.sch` formats; import into a copy when using a newer version. The project tables use `${KIPRJMOD}` for the submodules and `${KISYSMOD}` for the standard KiCad footprint library, so install the corresponding KiCad libraries and check library paths before editing.
 
@@ -48,3 +50,5 @@ Related Makeristic projects: [STM32WB55 Feather](https://github.com/makeristic/F
 No licence for the top-level hardware design was found in this fork or in the upstream repository metadata during this review. It has therefore not been relicensed as MIT. Obtain the upstream authors' permission or a clear licence grant before relying on redistribution or reuse rights.
 
 The pinned submodules carry their own terms: [Chickadee Tech's library is CC BY 4.0](https://github.com/chickadee-tech/kicad-libs/blob/114e708df9f8237ff84cfc5284e7f81555c1f4d6/LICENSE), and [DebugEdge uses Solderpad Hardware License 2.1](https://github.com/debug-edge/DebugEdge/blob/3c2c808082ba6d3af2069bf030e18878714d6500/LICENSE). The Chickadee library also excludes use of Chickadee Tech trademarks in its README. These terms are separate from this fork's design; third-party symbols, footprints, and marks are not granted new permissions by this README.
+
+Standard cached symbols retain [KiCad's CC BY-SA 4.0 licence and exception](LICENSES/KiCad-Libraries.md); custom cached symbols retain the pinned submodules' terms. See the [audit](docs/code-audit-report.md) for exact source versions.
