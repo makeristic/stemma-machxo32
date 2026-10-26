@@ -10,7 +10,7 @@ The README identifies the MachXO2 design, its upstream authors and Michael's par
 - [x] Add a README covering provenance, setup, file layout, status, feedback, and licence limitations (completed: 2026-10-26).
 - [x] Set and verify GitHub description and topics (completed: 2026-10-26).
 - [x] Check local Markdown links, initialise pinned submodules over HTTPS, review whitespace and the complete diff (completed: 2026-10-26; 7 local links resolve, design sources and submodule pointers unchanged).
-- [ ] Commit, push, and open a PR against the fork.
+- [x] Commit, push, and open [PR #1 against the fork](https://github.com/makeristic/stemma-machxo32/pull/1) (completed: 2026-10-26).
 
 ## Findings and limits
 
